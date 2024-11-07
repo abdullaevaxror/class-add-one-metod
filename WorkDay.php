@@ -6,6 +6,9 @@ class WorkDay
 {
     const REQUIRED_HOUR_DURATION = 8;
     public $pdo;
+    public $arrived_at;
+    public $leaved_at;
+    public $total;
     public function __construct()
     {
         $db = new DB();
